@@ -39,8 +39,8 @@ footer {
     display: none;
     }
 
-    .fa-solid {
-    display: none;
+    .fa-solid  {
+     display: none;
 
  }
 
@@ -92,6 +92,13 @@ footer {
     width: 100%;
     display: block;
 }
+
+.banner-image {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
 
 .banner-image-mobile {
     display: none;
@@ -166,7 +173,7 @@ footer {
     list-style: none;
     text-align: right;
     padding: 20px 0 30px 20px;
-    bottom: 0;
+    bottom: 10px;
 
 }
 
@@ -305,11 +312,6 @@ footer {
 
 
 
-.icons  {
-    color: #2C3581;
-    display: block;
-}
-
 
 .lab-image {
     display: block;
@@ -320,12 +322,166 @@ footer {
 }
 
 
+.what {
+    margin-bottom: 100px;
+}
+
+.when{
+    margin-bottom: 100px;
+}
+.firkant {
+    background-color: #fff;
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+   
+}
+
+.firkant1 {
+    background-color: #fff;
+    height: 20px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: -20px;
+    
+}
+
+.choose {
+    margin-left: 200px;
+    font-size: 12px;
+    float:left;
+    display: inline;
+}
+
+.symbols-events {
+    margin-top: 100px;
+}
+
+/* SPACE PAGE DESKTOP*/
+
+.background-image {
+    display: block;
+    background-color: #000;
+    background-image: url(../images/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+} 
+
+.background-image-mobile {
+    display: none;
+}
+
+.navigation-otherpages-white {
+    
+    color: #fff;
+    list-style: none;
+    text-align: right;
+    padding: 30px 0 30px 0;
+    margin-top: -750px;
+}
+
+.navigation-otherpages-white li {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.navigation-otherpages-white li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation-otherpages-white li :hover {
+    color: #9DA3D6;
+}
+
+.logo-otherpages-white {
+    float: left;
+    color: #fff;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.logo-otherpages-white a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.maintextspace {
+    display: block;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.spaceimages {
+    
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 500px));
+    grid-gap: 80px;
+    margin-left: 30px;
+ }
 
 
+ .spacetext1 {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,500px));
+    grid-gap: 80px;
+    margin-left: 50px;
+ }
+
+ .spacetext2 {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,500px));
+    grid-gap: 80px;
+    margin-left: 50px;
+    
+ }
+
+ .spacetext3 {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,500px));
+    grid-gap: 80px;
+    margin-left: 90px;
+    margin-top: 10px;
+ }
 
 
+ /* EARTH NOW AND THEN PAGE DESKTOP*/
 
+ .navigation-footer-green {
+    background-color: #2C8179;
+    color: #fff;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 30px 20px;
+    bottom: 10px;
 
+}
+
+.navigation-footer-green li {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.navigation-footer-green li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation-footer-green li :hover {
+    color: #9dd6b2;
+}
 
 /* Media Queries*/
 
@@ -380,6 +536,7 @@ footer {
         width: 100%; 
         height: 200px;
         display: block;
+        
     }
    
     .h1-index {
@@ -500,6 +657,25 @@ nav a {
 
 
 }
+
+
+      /* SPACE PAGE MOBILE VERSION*/
+
+    .background-image {
+        display: none;
+    }
+
+
+    .background-image-mobile {
+        display: block;
+        background-color: #000;
+        background-image: url("../images/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 2000px;
+        width: auto;
+    }
+
 
    /* footer mobile version*/
 
