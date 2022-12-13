@@ -16,7 +16,7 @@ body {
   }
 
 footer {
-    position:absolute;
+    position: absolute;
     bottom:0;
     width:100%;
     height:60px;   
@@ -173,7 +173,7 @@ footer {
     list-style: none;
     text-align: right;
     padding: 20px 0 30px 20px;
-    bottom: 10px;
+    bottom: 300px;
 
 }
 
@@ -277,6 +277,10 @@ footer {
     margin-top: -150px;
 }
 
+.CSMlogo-phone {
+    display: none;
+}
+
 .container {
     position: relative;
     width: 1200px;
@@ -285,16 +289,25 @@ footer {
     
 }
 
+.container-mobile {
+    display: none;
+}
+
 .box {
     position: relative;
     width: calc(1400px - 50px);
 }
 
+.box-mobile {
+    display: none;
+}
+
+
 .container, 
 .box {
     position: relative;
     width: calc(1400px - 50px);
-    height: calc(300px - 30px);
+    height: calc(300px - 50px);
     background-color: #D9D9D9;
     float: left;
     margin: 20px;
@@ -304,10 +317,20 @@ footer {
     
 }
 
+.container-mobile, 
+.box-mobile {
+    display: none;
+    
+}
+
 .content {
     color: #000;
     display: block;
-   
+}
+
+
+.content-mobile {
+    display: none;
 }
 
 
@@ -316,45 +339,96 @@ footer {
 .lab-image {
     display: block;
     margin-left: 100px;
-    margin-top: -80px;
+    margin-top: -90px;
     
 
+}
+
+.lab-image-mobile {
+    display: none;
 }
 
 
 .what {
-    margin-bottom: 100px;
-}
-
-.when{
-    margin-bottom: 100px;
-}
-.firkant {
-    background-color: #fff;
-    height: 20px;
-    width: 100px;
-    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    
    
 }
 
+.what-mobile {
+    display: none;
+     
+  }
+
+.when {
+    display: block;
+    margin-top: -30px;
+    margin-left: 400px;
+}
+
+.when-mobile {
+    display: none;
+ }
+
+.firkant {
+    background-color: #fff;
+    height: 25px;
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+   
+}
+
+.firkant-mobile {
+    display: none;
+     
+ }
+
 .firkant1 {
     background-color: #fff;
-    height: 20px;
-    width: 100px;
-    margin-left: 160px;
-    margin-top: -20px;
+    height: 25px;
+    width: 180px;
+    margin-left: 400px;
+    margin-top: -25px;
+
     
 }
 
-.choose {
-    margin-left: 200px;
+
+.firkant1-mobile {
+    display: none;
+ }
+
+.choose-1 {
+    margin-left: 45px;
+    margin-top: 12px;
     font-size: 12px;
     float:left;
     display: inline;
 }
 
-.symbols-events {
-    margin-top: 100px;
+.choose-1-mobile {
+    display: none;
+  }
+  
+
+.choose-2 {
+    margin-left: 280px;
+    margin-top: 12px;
+    font-size: 12px;
+    float:left;
+    display: inline;
+}
+
+ .choose-2-mobile {
+    display: none;
+ }
+
+ .fa-solid {
+    display: none;
 }
 
 /* SPACE PAGE DESKTOP*/
@@ -365,10 +439,15 @@ footer {
     background-image: url(../images/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+
 
     
 } 
+
+    .CSMlogo-phonespace {
+        display: none;
+    }
 
 .background-image-mobile {
     display: none;
@@ -437,7 +516,7 @@ footer {
     margin-left: 50px;
  }
 
- .spacetext2 {
+ .spacetext2{
     color: #fff;
     display: grid;
     grid-template-columns: repeat(3, minmax(0,500px));
@@ -453,6 +532,49 @@ footer {
     grid-gap: 80px;
     margin-left: 90px;
     margin-top: 10px;
+ }
+ .maintextspace-mobile {
+    display: none;
+    
+ }
+
+.spaceimages-mobile {
+    
+    display: none;
+ }
+
+
+ .spacetext1-mobile {
+   display: none;
+ }
+
+ .spacetext2-mobile {
+    display: none;
+ }
+
+ .spacetext3-mobile {
+    display: none;
+ }
+
+
+ .checkbox2 {
+    display: none;
+}
+#menu-checkbox2 {
+    display: none;
+}
+
+.nav {
+    display: none;
+ }
+
+    nav a {
+    display: none;
+    }
+
+    .fa-solid  {
+     display: none;
+
  }
 
 
@@ -629,7 +751,7 @@ nav,
 }
 
 header {
-  position: releative;
+  position:relative;
 }
 
 nav {
@@ -649,22 +771,254 @@ nav a {
 
 
   .fa-solid  {
-    color: #2C3581;
-    background-color: #fff;
-    size: 1fr;
+    color: #000;
+    background-color: #2C3581;
+    size: 50px;
     display: block;
-    margin-left: 10px;
-
-
+    margin-left: 20px;
 }
 
 
-      /* SPACE PAGE MOBILE VERSION*/
+nav, 
+#menu-checkbox2 {
+  display:none;
+}
 
-    .background-image {
+#menu-checkbox2:checked ~ nav {
+  display:block;
+}
+
+header {
+  position:relative;
+ 
+}
+
+nav {
+  position: absolute;
+  background: #2C3581;
+  margin-left: 10px;
+  
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0, 10px 0;
+}
+
+
+  .fa-solid  {
+    display: block;
+    color: #000;
+    background-color: #fff;
+    size: 50px;
+    display: block;
+    margin-left: 20px;
+}
+
+
+
+    /* EVENTS MOBILE VERSION */
+
+    .navigation-otherpages {
         display: none;
     }
 
+    .CSMlogo {
+        display: none;
+    }
+
+    .CSMlogo-phone {
+        display: block;
+        margin-left: 80px;
+        margin-top: -80px;
+        margin-bottom: 50px;
+    
+    
+    }
+
+
+    .container {
+       display: none;
+        
+    }
+    
+    .box {
+        display: none;
+    }
+    
+    .container, 
+    .box {
+        display: none;
+        
+    }
+    
+    .content {
+       display: none;
+    }
+
+    
+    
+    .lab-image {
+        display: none;
+    
+    }
+    
+    
+    .what {
+      display: none;
+       
+    }
+    
+    .when {
+       display: none;
+    }
+    .firkant {
+        display: none;
+        
+       
+    }
+    
+    .firkant1 {
+        display: none;
+    }
+    
+    .choose-1 {
+       display: none;
+    }
+    
+    .choose-2 {
+        display: none;
+    }
+    
+
+    .container-mobile {
+        display: block;
+        position: relative;
+        width: 400px;
+        height: 150px;
+        margin: 120px auto;
+         
+     }
+     
+     .box-mobile {
+        display: block;
+        position: relative;
+        width: calc(700px - 25px);
+       
+     }
+     
+     .container-mobile, 
+     .box-mobile {
+        display: block;
+        position: relative;
+        width: calc(360px - 25px);
+        height: calc(150px - 25px);
+        background-color: #D9D9D9;
+        float: left;
+        margin: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 0px;
+        margin-bottom: 80px;
+         
+     }
+     
+     .content-mobile {
+        display: block;
+        color: #000;
+        display: block;
+        margin-left: 15px;
+        font-size: 9px;
+     }
+     
+     
+     
+     
+     .lab-image-mobile {
+        display: block;
+        margin-left: 10px;
+        margin-top: -45px;
+     
+     }
+     
+     
+     .what-mobile {
+        display: block;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 15px;
+        
+     }
+     
+     .when-mobile {
+        display: block;
+        font-size: 10px;
+        margin-top: -20px;
+        margin-left: 200px; 
+     }
+     .firkant-mobile {
+        display: block;
+        background-color: #fff;
+        height: 12.5px;
+        width: 90px;
+        margin-left: 15px;
+        margin-top: 5px;
+         
+     }
+     
+     .firkant1-mobile {
+        display: block;
+        background-color: #fff;
+        height: 12.5px;
+        width: 90px;
+        margin-left: 200px;
+        margin-top: -12.5px;
+     }
+     
+     .choose-1-mobile {
+        display: block;
+        margin-left: 22.5px;
+        margin-top: 6px;
+        font-size: 7px;
+        float:left;
+        display: inline;
+     }
+     
+     .choose-2-mobile {
+        display: block;
+        margin-left: 140px;
+        margin-top: 6px;
+        font-size: 7px;
+        float:left;
+        display: inline;
+     }
+     
+    
+
+    
+
+      /* SPACE PAGE MOBILE VERSION*/
+
+     .background-image {
+        display: none;
+    }
+
+
+
+    .CSMlogo {
+        display: none;
+    }
+
+    .CSMlogo-phonespace {
+        display: block;
+        margin-left: 90px;
+        margin-top: -1200px;
+        margin-bottom: 50px;
+    
+    
+    }
 
     .background-image-mobile {
         display: block;
@@ -672,10 +1026,134 @@ nav a {
         background-image: url("../images/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 2000px;
-        width: auto;
+        height: 1200px;
+        width: auto; 
     }
 
+    .navigation-otherpages-white {
+        display: none;
+    }
+
+    .logo-otherpages-white {
+        display: none;
+    }
+
+    .maintextspace {
+        display: none;
+    }
+    
+    .spaceimages{
+        display: none;
+     }
+    
+    
+     .spacetext1 {
+        display: none;
+     }
+    
+     .spacetext2{
+        display: none;
+     }
+    
+     .spacetext3 {
+        display: none;
+     }
+   
+
+    .maintextspace-mobile {
+        display: block;
+        color: #fff;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        text-align: center;
+        margin-top: -100px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .spaceimages-mobile {
+        
+        display: grid;
+        grid-template-rows: repeat(3, minmax(0, 250px));
+        grid-gap: 40px;
+        margin-left: 70px;
+        
+     }
+    
+    
+     .spacetext1-mobile {
+        color: #fff;
+        display: grid;
+        grid-template-rows: repeat(3, minmax(0, 250px));
+        grid-gap: 40px;
+        margin-left: 55px;
+        margin-top: -650px;
+        font-size: 10px;
+     }
+    
+     .spacetext2-mobile{
+        color: #fff;
+        display: grid;
+        grid-template-rows: repeat(3, minmax(0,250px));
+        grid-gap: 40px;
+        font-size: 10px;
+        margin-top: -800px;
+        margin-left: 80px;
+        
+     }
+    
+     .spacetext3-mobile {
+        color: #fff;
+        display: grid;
+        font-size: 15px;
+        grid-template-rows: repeat(3, minmax(0,250px));
+        grid-gap: 50px;
+        margin-left: 90px;
+        margin-top: -790px;
+       
+     }
+   
+     .checkbox2 {
+        display: block;
+     }
+
+        nav, 
+        #menu-checkbox2 {
+        display:none;
+        }
+
+        #menu-checkbox2:checked ~ nav {
+       display:block;
+        }
+
+        header {
+        position:relative;
+ 
+        }
+
+        nav {
+        position: absolute;
+        background: #2C3581;
+        margin-left: 10px;
+  
+        }
+
+
+        nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 0, 10px 0;
+        }
+
+
+        .fa-solid  {
+        display: block;
+        color: #fff;
+        background-color: #2C3581;
+        size: 50px;
+        display: block;
+        margin-left: 20px;
+        }   
 
    /* footer mobile version*/
 
