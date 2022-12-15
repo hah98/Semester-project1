@@ -1,2 +1,2 @@
-# Semester-project-1
+# Semester-project
 Semester Project 1 Noroff 
