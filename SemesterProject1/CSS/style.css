@@ -440,10 +440,12 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-
-
     
 } 
+
+.checkbox {
+    display: none;
+}
 
     .CSMlogo-phonespace {
         display: none;
@@ -499,6 +501,11 @@ footer {
     margin-top: -90px;
 }
 
+.maintextspace-mobile {
+    display: none;
+}
+
+
 .spaceimages {
     
     display: grid;
@@ -533,7 +540,7 @@ footer {
     margin-left: 90px;
     margin-top: 10px;
  }
- .maintextspace-mobile {
+ .maintextspace-earthmobile {
     display: none;
     
  }
@@ -578,7 +585,196 @@ footer {
  }
 
 
- /* EARTH NOW AND THEN PAGE DESKTOP*/
+ /* EARTH: NOW AND THEN DESKTOP*/
+
+ .background-image {
+    display: block;
+    background-color: #000;
+    background-image: url(../images/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+} 
+
+.maintextspace {
+    display: block;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: -550px;
+}
+
+.background-image-mobile {
+    display: none;
+}
+
+.text2earth {
+    display: none;
+}
+
+.DINO1text-mobile {
+    display: none;
+}
+
+.DINO1-mobile {
+    display: none;
+}
+
+.DINO2text-mobil {
+    display: none;
+}
+
+.DINO2-mobile {
+    display: none;
+}
+
+.DINO3text-mobil {
+    display: none;
+}
+
+.DINO3-mobile {
+    display: none;
+}
+.DINO4text-mobil {
+    display: none;
+}
+
+.DINO4-mobile {
+    display: none;
+}
+
+.worldtext-mobile {
+    display: none;
+}
+
+.world-mobile {
+    display: none;
+}
+
+
+
+
+.DINO1text {
+        color: #fff;
+        background-color: #2C3581;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 90px;
+        height: 30px;
+        width: 150px;
+        text-align: center;
+      
+}
+
+.DINO1 {
+    display: block;
+    margin-left: 10px;
+}
+
+.DINO2text {
+    color: #fff;
+    background-color: #2C3581;
+    font-size: 15px;
+    margin-top: -350px;
+    margin-left: 500px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+      
+}
+
+.DINO2 {
+        display: block;
+        margin-left: 400px;
+        margin-top: -40px;
+}
+
+.DINO3text {
+    color: #fff;
+    background-color: #2C3581;
+    font-size: 15px;
+    margin-top: 105px;
+    margin-left: 500px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+.DINO3 {
+        display: block;
+        margin-top: -200px;
+        margin-left: 440px;
+}
+.DINO4text {
+    color: #fff;
+    background-color: #2C3581;
+    font-size: 15px;
+    margin-top: -300px;
+    margin-left: 800px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+.DINO4 {
+        display: block;
+        margin-top: -35px;
+        margin-left: 700px;
+}
+
+.worldtext {
+        color: #fff;
+        background-color: #2C3581;
+        font-size: 15px;
+        margin-left: 1050px;
+        margin-top: -300px;
+        height: 30px;
+        width: 300px;
+        text-transform: uppercase;
+        text-align: center;
+}
+
+.world {
+    display: block;
+    height: 300px;
+    width: 340px;
+    margin-left: 1050px;
+    margin-bottom: 70px;
+}
+
+
+
+
+.checkbox {
+    display: none;
+}
+#menu-checkbox {
+    display: none;
+}
+
+.nav {
+    display: none;
+ }
+
+    nav a {
+    display: none;
+    }
+
+    .fa-solid  {
+     display: none;
+
+ }
+
+ .maintextspace-earthmobile {
+    display: none;
+ }
+
+
+
+
+ /* TICKETS PAGE DESKTOP*/
 
  .navigation-footer-green {
     background-color: #2C8179;
@@ -618,6 +814,9 @@ footer {
     grid-gap: 10px;
 
 
+    header {
+        position: relative;
+    }
      .navigation {
        display: none;
     }
@@ -770,52 +969,14 @@ nav a {
 }
 
 
-  .fa-solid  {
-    color: #000;
-    background-color: #2C3581;
-    size: 50px;
-    display: block;
-    margin-left: 20px;
-}
-
-
-nav, 
-#menu-checkbox2 {
-  display:none;
-}
-
-#menu-checkbox2:checked ~ nav {
-  display:block;
-}
-
-header {
-  position:relative;
- 
-}
-
-nav {
-  position: absolute;
-  background: #2C3581;
-  margin-left: 10px;
-  
-}
-
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 0, 10px 0;
-}
-
-
-  .fa-solid  {
-    display: block;
-    color: #000;
-    background-color: #fff;
-    size: 50px;
-    display: block;
-    margin-left: 20px;
-}
+    .fa-solid  {
+    
+        color: #fff;
+        background-color: #2C3581;
+        size: 50px;
+        margin-left: 30px;
+       
+        }   
 
 
 
@@ -1000,7 +1161,19 @@ nav a {
     
 
       /* SPACE PAGE MOBILE VERSION*/
+        
+      html {
+        position: relative;
+        min-height: 100%;
+    }
 
+
+    .fa-solid {
+        display: block;
+        z-index: 1;
+    }
+
+    
      .background-image {
         display: none;
     }
@@ -1013,8 +1186,8 @@ nav a {
 
     .CSMlogo-phonespace {
         display: block;
-        margin-left: 90px;
-        margin-top: -1200px;
+        margin-left: 80px;
+        margin-top: -1250px;
         margin-bottom: 50px;
     
     
@@ -1027,7 +1200,8 @@ nav a {
         background-size: cover;
         background-repeat: no-repeat;
         height: 1200px;
-        width: auto; 
+        max-width: 480px; 
+        z-index: 2;
     }
 
     .navigation-otherpages-white {
@@ -1066,7 +1240,7 @@ nav a {
         padding-top: 7px;
         padding-bottom: 7px;
         text-align: center;
-        margin-top: -100px;
+        margin-top: -1100px;
         font-size: 20px;
         margin-bottom: 20px;
     }
@@ -1112,48 +1286,179 @@ nav a {
         margin-top: -790px;
        
      }
-   
-     .checkbox2 {
-        display: block;
+     
+
+
+
+     /* Earth now and then mobile version*/
+
+     .background-image {
+        display: none;
+     }
+    
+     .maintextspace {
+        display: none;
      }
 
-        nav, 
-        #menu-checkbox2 {
-        display:none;
-        }
-
-        #menu-checkbox2:checked ~ nav {
-       display:block;
-        }
-
-        header {
-        position:relative;
- 
-        }
-
-        nav {
-        position: absolute;
-        background: #2C3581;
-        margin-left: 10px;
-  
-        }
-
-
-        nav a {
-        text-decoration: none;
+     .maintextspace-earthmobile {
+        display: block;
         color: #fff;
-        padding: 10px 0, 10px 0;
-        }
+        padding-top: 7px;
+        padding-bottom: 7px;
+        text-align: center;
+        margin-top: -1100px;
+        font-size: 20px;
+        margin-bottom: 20px;
+     }
+
+     .CSMlogo {
+        display: none;
+     }
+
+     .CSMlogo-phonespace {
+        display: block;
+        margin-left: 80px;
+        margin-top: -1250px;
+        margin-bottom: 50px;
+    
+    
+     }
+
+    
+
+     .text2earth {
+        display: block;
+        color: #fff;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        text-align: center;
+        font-size: 18px;
+     }
+        
+
+     .DINO1text-mobile {
+        color: #fff;
+        background-color: #2C3581;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 10px 80px;
+        text-align: center;
+      
+     }
+
+     .DINO1-mobile {
+        display: block;
+        margin-left: 30px;
+     }
 
 
-        .fa-solid  {
+     .DINO2text-mobile {
+        color: #fff;
+        background-color: #2C3581;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 10px 80px;
+        text-align: center;
+      
+     }
+
+     .DINO2-mobile {
+        display: block;
+        margin-left: 30px;
+     }
+
+     .DINO3text-mobile {
+        color: #fff;
+        background-color: #2C3581;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 10px 80px;
+        text-align: center;
+     }
+    
+     .DINO3-mobile {
+        display: block;
+        margin-left: 30px;
+     }
+
+     .DINO4text-mobile {
+        color: #fff;
+        background-color: #2C3581;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 10px 80px;
+        text-align: center;
+      
+     }
+
+     .DINO4-mobile {
+        display: block;
+        margin-left: 30px;
+     }
+
+     .worldtext-mobile {
         display: block;
         color: #fff;
         background-color: #2C3581;
-        size: 50px;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 10px 80px;
+        text-align: center;
+        text-transform: uppercase;
+     }
+
+     .world-mobile {
         display: block;
-        margin-left: 20px;
-        }   
+        margin-left: 50px;
+        margin-bottom: 70px;
+     }
+
+
+     .earthdesktop {
+        display: grid;
+        
+     }
+
+.DINO1text {
+    display: none;
+}
+
+.DINO1 {
+    display: none;
+}
+
+.DINOt2ext {
+    display: none;
+}
+
+.DINO2 {
+    display: none;
+}
+
+.DINO3text {
+    display: none;
+}
+
+.DINO3 {
+    display: none;
+}
+.DINO4text {
+    display: none;
+}
+
+.DINO4 {
+    display: none;
+}
+
+.worldtext {
+    display: none;
+}
+
+.world {
+    display: none;
+}
+
+   
 
    /* footer mobile version*/
 
@@ -1213,5 +1518,3 @@ nav a {
 }
 
     }
-
-   
