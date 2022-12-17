@@ -1600,6 +1600,7 @@ nav a {
         
 
      .DINO1text-mobile {
+        display: block;
         color: #fff;
         background-color: #2C3581;
         font-size: 15px;
@@ -1690,7 +1691,7 @@ nav a {
     display: none;
 }
 
-.DINOt2ext {
+.DINO2text {
     display: none;
 }
 
@@ -1725,6 +1726,14 @@ nav a {
 
 
   /* TICKETS MOBILE VERSION*/
+
+body, .header, 
+footer {
+    max-width: 100%;
+}
+
+
+
 
   nav, 
   #menu-checkboxgreen {
@@ -2046,6 +2055,7 @@ display: none;
     bottom: 0;
     position:fixed;
     bottom:0;
+    width: 100%;
 }
 
    /* footer mobile version*/
@@ -2075,6 +2085,7 @@ display: none;
     text-align: center;
     padding: 20px 0 20px 10px;
     bottom: 0;
+    min-width: 100%;
 
 }
 
