@@ -1067,6 +1067,11 @@ footer {
 
 @media screen and (min-width: 350px ) and (max-width:480px) {
 
+    header {
+        position: relative;
+    }
+   
+   
     body {
        
     }
@@ -1077,9 +1082,7 @@ footer {
 
 
    
-    header {
-        position: relative;
-    }
+   
      .navigation {
        display: none;
     }
@@ -1436,6 +1439,7 @@ nav a {
     .fa-solid {
         display: block;
         z-index: 1;
+        margin-top: -500px;
     }
 
     
@@ -1555,6 +1559,8 @@ nav a {
 
      /* EARTH NOW AND THEN MOBILE VERSION*/
 
+     
+     
      .background-image {
         display: none;
      }
